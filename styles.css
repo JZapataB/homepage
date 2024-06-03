@@ -2,7 +2,7 @@
 /* General styles */
 
 * {
-    margin: 0;
+    margin: 1vw;
     padding: 0;
     box-sizing: border-box;
   }
@@ -97,6 +97,7 @@ body {
 
 .contact-info__block--center {
   justify-content: center;
+  margin-left: 20.5vw;
 }
 
 .contact-info__item {
@@ -171,7 +172,7 @@ body {
 
 .skills__text {
   color: var(--secondary-text-color);
-  text-align: justify;
+  text-align: center;
 }
 
 /* Experience and additional info styles */
@@ -268,4 +269,5 @@ body {
 
 .additional-info__languages-item {
   color: var(--secondary-text-color);
+  margin-left: 6%;
 }
